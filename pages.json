@@ -1,0 +1,98 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/finder/finder",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/404/404",
+		"style": {
+			"navigationBarTitleText": "当前页面404",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/list/list",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"subPackages": [{
+		"root": "subpages",
+		"pages": [{
+			"path": "news/news",
+			"navigationBarTitleText": "新闻中心",
+			"enablePullDownRefresh": false
+		}, {
+			"path": "chat/chat",
+			"style": {
+				"navigationBarTitleText": "在线聊天",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/c1.png",
+				"iconfont": {
+					"text": "\ue102",
+					"selectedText": "\ue103",
+					"fontSize": "40px"
+					// "color": "#000000",
+					// "selectedColor": "#0000ff"
+				}
+			}, {
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/c2.png",
+				"iconfont": {
+					"text": "\ue102",
+					"selectedText": "\ue103",
+					"fontSize": "40px"
+					// "color": "#000000",
+					// "selectedColor": "#0000ff"
+				}
+			},
+			{
+				"pagePath": "pages/list/list",
+				"text": "列表",
+				"iconPath": "./static/c3.png",
+				"iconfont": {
+					"text": "\ue102",
+					"selectedText": "\ue103",
+					"fontSize": "40px"
+					// "color": "#000000",
+					// "selectedColor": "#0000ff"
+				}
+			}
+		]
+	}
+}

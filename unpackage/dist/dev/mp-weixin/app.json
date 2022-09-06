@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/finder/finder",
+    "pages/404/404",
+    "pages/list/list",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "news/news",
+        "chat/chat"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/c1.png",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "40px"
+        }
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/c2.png",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "40px"
+        }
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "./static/c3.png",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "40px"
+        }
+      }
+    ]
+  },
+  "usingComponents": {}
+}

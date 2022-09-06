@@ -1,0 +1,32 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/index/indexs",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpages/chat/chat",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}
